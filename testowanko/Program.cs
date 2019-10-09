@@ -16,6 +16,9 @@ namespace Projekt
             {
                 Console.WriteLine("\nMENU: \n1. Download file from internet.\n2. Count number of letters in the file.\n3. Count number of words in the file.\n4. Count number of punctuation marks in the file.\n5. Count number of sentences in the file.\n6. Report about usage of letters (A-Z).\n7. Save statistics from points 2-5 to the file(statystki.txt)\n8. Exit and close application.\n");
                 Console.Write("Choose option to execute: ");
+                Console.WriteLine("JD");
+                Console.WriteLine("JD");
+                Console.WriteLine("JD");
                 int MenuOpt;
                 if (!int.TryParse(Console.ReadLine(), out MenuOpt))
                 {
